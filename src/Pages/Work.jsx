@@ -164,7 +164,7 @@ export const Work = () => {
                         return (
                             <div className='bg-white p-4 rounded-xl w-[300px] md:w-1/4 h-fit ' key={i}>
                                 <div className={`w-full bg-gray-300 h-60 bg-center bg-contain bg-no-repeat rounded-xl relative`} style={{ backgroundImage: `url(${e.projectImage})` }}>
-                                    <div className='absolute bottom-0 title z-50 rounded-t-xl self-center bg-white w-32 h-6'>
+                                    <div className='absolute bottom-0 title z-40 rounded-t-xl self-center bg-white w-32 h-6'>
                                         <p className='text-center text-gray-500 font-semibold'>{e.category}</p>
                                     </div>
                                     <div className='w-full h-60 work flex justify-center items-center gap-x-4 rounded-xl '>

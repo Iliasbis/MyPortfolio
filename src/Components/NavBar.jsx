@@ -14,7 +14,7 @@ export const NavBar = () => {
     const logo = "</"
     const logoend = ">"
     return (
-        <nav className='flex fixed justify-between w-full px-6 py-6 items-center shadow-md shadow-gray-300 bg-slate-100 z-50'>
+        <nav className='flex fixed justify-between  w-full px-6 py-6 items-center shadow-md shadow-gray-300 bg-slate-100 z-50'>
             <h2 className='text-slate-500 cursor-pointer select-none self-center'><span className='text-teal-500'>{logo}</span> ILias Bis <span className='text-teal-400'>{logoend} </span> </h2>
             <div onClick={() => setMenu(true)} className='text-3xl absolute top-4 right-8 cursor-pointer md:hidden'><ion-icon name={'menu'}></ion-icon> </div>
             <ul className={`md:flex md:pt-1 md:items-center md:pb-0 absolute md:static md:z-auto md:self-center z-20 right-0 w-screen h-screen md:w-auto md:pl-0 px-2 transition-all duration-500 ease-in md:flex-row md:h-full flex flex-col items-start  pt-24 md:justify-evenly md:bg-slate-100 bg-white ${menu ? 'top-0 opacity-100' : 'top-[-2250px]'} md:opacity-100 opacity-0 `}>
