@@ -21,7 +21,7 @@ export const Contact = () => {
     return (
         <div id='contact' className='w-screen h-full mb-5  flex flex-col items-center justify-evenly'>
             <h1 className='text-3xl sm:text-5xl text-center font-semibold'>Contact <span className='text-teal-400'>Me</span></h1>
-            <div className='mt-20 flex flex-col md:flex-row justify-between gap-4 md:gap-y-0 md:gap-x-20 w-full px-3 md:px-0 md:w-1/2'>
+            <div className='mt-20 mb-10 flex flex-col md:flex-row justify-between gap-4 md:gap-y-0 md:gap-x-20 w-full px-3 md:px-0 md:w-1/2'>
                 <div className='bg-slate-200 flex px-4 items-center justify-start lg:px-8 gap-x-3 sm:gap-x-5 rounded-xl h-16 py-4 w-full lg:w-1/2'>
                     <img src={gmail} alt="gmail" className='object-contain  w-7 h-7 sm:h-10 sm:w-10' />
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bissoufailiasjob@gmail.com"  className='my-auto' target='_blank'>
