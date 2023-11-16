@@ -21,7 +21,7 @@ export const NavBar = () => {
                 {links.map((l) => {
                     return <>
                         <div onClick={() => setMenu(false)} className='text-3xl absolute right-8 top-3 cursor-pointer md:hidden'><ion-icon name={'close'}></ion-icon> </div>
-                        <li className={`list md:mx-4 text-slate-500 select-none ${menu ? 'py-7 px-10 mx-auto md:py-0' : 'md:py-0 py-0'} `}><Link to={l.link} spy={true} smooth={true} duration={500} >{l.name} </Link> </li>
+                        <li  className={`list md:mx-4 text-slate-500 select-none ${menu ? 'py-7 px-10 mx-auto md:py-0' : 'md:py-0 py-0'} `}><Link to={l.link} spy={true} smooth={true} duration={500} >{l.name} </Link> </li>
                     </>
                 })}
             </ul>

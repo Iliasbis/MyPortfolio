@@ -56,7 +56,7 @@ export const Work = () => {
         {
             projectName: "Chat App",
             projectImage: chatapp,
-            githubLink:'',
+            githubLink:'https://github.com/Iliasbis/chatApp',
             youtubeLink:'https://www.youtube.com/watch?v=qJCrFHwd37E&t=58s',
             technologie: [
                 'Flutter', 'FireBase', 'OOP', 'Dart',
