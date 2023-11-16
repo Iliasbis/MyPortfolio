@@ -16,7 +16,7 @@ export const Work = () => {
         {
             projectName: "Portfolio",
             projectImage: portfolio,
-            githubLink:'',
+            githubLink:'https://github.com/Iliasbis/MyPortfolio',
             youtubeLink:'',
             technologie: [
                 'html', 'css', 'TailwindCss', 'ReactJs','EmailJs'
