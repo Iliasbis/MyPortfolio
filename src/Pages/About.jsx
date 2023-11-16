@@ -7,8 +7,8 @@ export const About = () => {
     window.open('/Resume/cv ilias bissoufa.pdf', '_blank');
   };
   return (
-    <div id='about' className='w-full h-full flex flex-col justify-between items-center bg-slate-200 sm:px-16'>
-      <h1 className='text-3xl sm:text-5xl font-semibold mt-6'>About <span className='text-teal-400'>Me</span></h1>
+    <div id='about' className='w-full h-full py-32 flex flex-col justify-between items-center bg-slate-200 sm:px-16'>
+      <h1 className='text-3xl sm:text-5xl font-semibold mb-6'>About <span className='text-teal-400'>Me</span></h1>
       <div className='flex flex-col-reverse items-center lg:items-center lg:flex-row '>
         <div className='flex flex-col justify-center w-full px-8 sm:px-14'>
           <h3 className='text-lg sm:text-xl font-semibold mb-6 '>ILias bissoufa</h3>
