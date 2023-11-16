@@ -27,11 +27,11 @@ export const Home = () => {
                     </div>
                 </a>
                 <a href="https://github.com/Iliasbis" target='_blank'>
-                    <div className='w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-github bg-center bg-contain bg-no-repeat animate-slow-animation absolute  right-0 left-0 xs:left-7   lg:left-auto top-[580px]   lg:right-16 lg:top-[320px] bg-white rounded-full text-center'>
+                    <div className='w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-github bg-center bg-contain bg-no-repeat animate-slow-animation absolute  right-0 left-0 xs:left-14   lg:left-auto top-[540px]   lg:right-16 lg:top-[320px] bg-white rounded-full text-center'>
                     </div>
                 </a>
                 <a href="https://www.linkedin.com/in/ilias-bissoufa/" target='_blank'>
-                    <div className='w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-linkedin bg-center bg-contain bg-no-repeat animate-slow-animation absolute lg:top-[520px] xs:right-7 top-[580px] right-0 lg:right-32 bg-white rounded-full text-center'>
+                    <div className='w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-linkedin bg-center bg-contain bg-no-repeat animate-slow-animation absolute lg:top-[520px] xs:right-14 top-[540px] right-0 lg:right-32 bg-white rounded-full text-center'>
                     </div>
                 </a>
                 <a href="https://wa.me/+212651156878" target='_blank'>
